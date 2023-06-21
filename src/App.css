@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+.outerbox{
+  padding: 40px;
+  border: 6px solid gray;
+  padding-bottom: 70px;
+}
+
+h1{
+  padding: 30px;
+  
+}
+.one{
+  padding: 9px 32px;
+  background-color: rgb(69, 201, 119);
+  border-radius: 10px;
+  font-size: 60px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.three{
+  padding: 9px 32px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 60px;
+}
+.two{
+  padding: 9px 32px;
+  background-color:rgb(232, 232, 105);
+  border-radius: 10px;
+  font-size: 60px;
+}
+
+.btn-box{
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+
+}
+.btn-main{
+  padding: 5px;
+
+}
+.btn1{
+
+margin-left: 20px;
+}
+.btn2{
+
+  margin-left: 30%;
+  }
+  .btn3{
+
+    margin-left: 31%;
+    }
+    .btn4{
+
+      margin-left: 31.5%;
+      }
+      .btn5{
+    
+        margin-left: 32.5%;
+        }
+         

@@ -3,34 +3,70 @@ import React from "react";
 
 class Setstate extends React.Component{
 
-    state = {
-        Hours:0
-    }
-    state = {
-        Menout:0
-    }
-    state = {
-        Secound:0
-    }
+   state = {
+    count: 0,
+    count2:0,
+    count3:0,
+   }
 
-    functionIncrement = () => {
-       this.setState({
-        Hours: this.state.Hours + 1
-       }) 
-    }
+   functionHours =() => {
+    this.setState({
+        count:this.state.count +1
+    })
 
-    functionDecrement = () => {
-        this.setState({
-         Menout: this.state.Menout - 1
-        }) 
-     }
+   }
+   functionMinutes=() => {
+    this.setState({
+        count2:this.state.count2 +1
+    })
+    
+   }
+  
+   functionSecound =() => {
+    this.setState({
+        count3:this.state.count3 +1
+    })
+    
+   }
+   
+   functionHours2 =() => {
+    this.setState({
+        count:this.state.count -1
+    })
 
+   }
+   functionMinutes2=() => {
+    this.setState({
+        count2:this.state.count2 -1
+    })
+    
+   }
+  
+   functionSecound2 =() => {
+    this.setState({
+        count3:this.state.count3 -1
+    })
+    
+   }
+  
+   
      render(){
         return(
             <>
-                <h1>{this.state.Hours} , {this.state.Menout}</h1>
-                <button onClick={this.functionIncrement}>+</button>
-                <button onClick={this.functionDecrement}>-</button>
+            <div className="outerbox">
+            <h1>Set Your Current time</h1>
+                <h1><span className="three">{this.state.count}</span> <span className="one">{this.state.count2}</span> 
+                <span className="two">{this.state.count3}</span></h1>
+
+              <div className="btn-main"> <div className="btn-box" ><button onClick={this.functionHours}className="btn1">+</button>
+                <button onClick={this.functionMinutes}className="btn2">+</button>
+                <button onClick={this.functionSecound} className="btn3">+</button></div> 
+              
+                <div className="btn-box"><button onClick={this.functionHours2} className="btn1">-</button>
+                <button onClick={this.functionMinutes2}className="btn4">-</button>
+                <button onClick={this.functionSecound2} className="btn5">-</button></div> 
+                </div>
+                </div>
             </>
         )
      }
