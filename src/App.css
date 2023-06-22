@@ -39,7 +39,7 @@
 
 .outerbox{
   padding: 40px;
-  border: 6px solid gray;
+  border: 8px double gray;
   padding-bottom: 70px;
 }
 
@@ -48,7 +48,7 @@ h1{
   
 }
 .one{
-  padding: 9px 32px;
+  padding: 10px 35px;
   background-color: rgb(69, 201, 119);
   border-radius: 10px;
   font-size: 60px;
@@ -56,46 +56,49 @@ h1{
   margin-right: 20px;
 }
 .three{
-  padding: 9px 32px;
+  padding: 10px 35px;
   background-color: orange;
   border-radius: 10px;
   font-size: 60px;
 }
 .two{
-  padding: 9px 32px;
+  padding: 10px 35px;
   background-color:rgb(232, 232, 105);
   border-radius: 10px;
   font-size: 60px;
 }
 
-.btn-box{
-  width: 300px;
+.outerbox2{
+  width: 370px;
   margin: 0 auto;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -25px;
 
 }
-.btn-main{
-  padding: 5px;
 
+.box1{
+  width: 33%;
+  font-size: 25px;
+  font-weight: 600;
 }
+
 .btn1{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  background-color: rgb(3, 158, 3);
 
-margin-left: 20px;
 }
 .btn2{
-
-  margin-left: 30%;
-  }
-  .btn3{
-
-    margin-left: 31%;
-    }
-    .btn4{
-
-      margin-left: 31.5%;
-      }
-      .btn5{
-    
-        margin-left: 32.5%;
-        }
-         
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 50%;
+  font-size: 16px;
+  background-color: rgb(231, 28, 28);
+}

@@ -58,15 +58,40 @@ class Setstate extends React.Component{
                 <h1><span className="three">{this.state.count}</span> <span className="one">{this.state.count2}</span> 
                 <span className="two">{this.state.count3}</span></h1>
 
-              <div className="btn-main"> <div className="btn-box" ><button onClick={this.functionHours}className="btn1">+</button>
-                <button onClick={this.functionMinutes}className="btn2">+</button>
-                <button onClick={this.functionSecound} className="btn3">+</button></div> 
-              
-                <div className="btn-box"><button onClick={this.functionHours2} className="btn1">-</button>
-                <button onClick={this.functionMinutes2}className="btn4">-</button>
-                <button onClick={this.functionSecound2} className="btn5">-</button></div> 
-                </div>
-                </div>
+
+
+<div className="outerbox2">
+    <div className="box1">
+    <span>Hours<br/>
+               <button onClick={this.functionHours}className="btn1">+</button>
+               <button onClick={this.functionHours2} className="btn2">-</button></span>
+    </div>
+
+
+    <div className="box1">
+    <span>Minutes<br/>
+                <button onClick={this.functionMinutes}className="btn1">+</button>
+                <button onClick={this.functionMinutes2}className="btn2">-</button></span>
+
+    </div>
+
+
+    <div className="box1">
+    <span>Secound<br/>
+                <button onClick={this.functionSecound} className="btn1">+</button>
+                <button onClick={this.functionSecound2} className="btn2">-</button></span>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+                               </div>
             </>
         )
      }
